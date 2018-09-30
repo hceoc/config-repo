@@ -16,4 +16,4 @@ eureka:
     service-url:
       defaultZone: http://localhost:8761/eureka/
 env: dev
-name: wuhao5
+name: wuhao1
