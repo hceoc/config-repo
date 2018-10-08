@@ -3,7 +3,6 @@ spring:
     name: api-gateway
 zuul:
   routes:
-#    sensitiveHeaders: #允许cookie传递到后端
     myProduct: #自定义路由
       path: /myProduct/**
       serviceId: product
